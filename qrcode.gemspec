@@ -3,7 +3,7 @@
 require_relative "lib/qrcode/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "go-qrcode"
+  spec.name = "qrgo"
   spec.version = QRCode::VERSION
   spec.authors = ["Dante Bradshaw"]
   spec.email = ["plansuperior@gmail.com"]
