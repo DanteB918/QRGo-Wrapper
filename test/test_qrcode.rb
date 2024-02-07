@@ -2,7 +2,7 @@
 
 require "test_helper"
 
-class TestTestgem < Minitest::Test
+class TestQRCode < Minitest::Test
   def test_that_it_has_a_version_number
     refute_nil ::QRCode::VERSION
   end

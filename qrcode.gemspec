@@ -3,13 +3,13 @@
 require_relative "lib/qrcode/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "qrcode"
+  spec.name = "go-qrcode"
   spec.version = QRCode::VERSION
   spec.authors = ["Dante Bradshaw"]
   spec.email = ["plansuperior@gmail.com"]
 
-  spec.summary = "Generate a QR Code using the goqr api at https://goqr.me/"
-#   spec.description = "TODO: Write a longer description or delete this line."
+  spec.summary = "Generate a QR Code using the GOQR api at https://goqr.me/"
+  spec.description = "This is a wrapper for the goqr.me api, it features methods for reading QR Codes as well as creating them."
   spec.homepage = "https://www.dantebradshaw.com"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
@@ -17,7 +17,8 @@ Gem::Specification.new do |spec|
 #   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-#   spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
+  
+  spec.metadata["source_code_uri"] = "https://github.com/DanteB918/QRGo-Wrapper"
 #   spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
   # Specify which files should be added to the gem when it is released.
