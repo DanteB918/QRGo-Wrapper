@@ -1,7 +1,7 @@
 # QR-GO Wrapper
 [![Gem Version](https://badge.fury.io/rb/qrgo.svg)](https://badge.fury.io/rb/qrgo)
 
-This is a wrapper for the [QRGO api](https://goqr.me/), and can be found in the gem store here [https://rubygems.org/gems/qrgo](https://rubygems.org/gems/qrgo)
+This is a wrapper for the [GOQR api](https://goqr.me/), and can be found in the gem store here [https://rubygems.org/gems/qrgo](https://rubygems.org/gems/qrgo)
 
 ## Installation
 
